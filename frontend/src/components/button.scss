@@ -1,0 +1,11 @@
+
+.changeButton:hover{
+    opacity: 1;
+}
+.changeButton{
+    background-color: white;
+    cursor: pointer;
+}
+.changeButton [data-active="false"]{
+    opacity:0.5
+}

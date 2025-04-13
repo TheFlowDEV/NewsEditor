@@ -1,0 +1,73 @@
+{
+  "name": "untitled3",
+  "version": "0.1.0",
+  "private": true,
+  "author": "TheFlowDEV",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
+    "@mui/x-date-pickers": "^7.28.3",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.126",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.2",
+    "axios": "^1.8.4",
+    "dayjs": "^1.11.13",
+    "escape-html": "^1.0.3",
+    "highlight.js": "^11.11.1",
+    "is-hotkey": "^0.2.0",
+    "markdown-it": "^14.1.0",
+    "prismjs": "^1.30.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-dropzone": "^14.3.8",
+    "react-scripts": "5.0.1",
+    "sass": "^1.86.3",
+    "slate": "^0.112.0",
+    "slate-history": "^0.110.3",
+    "slate-react": "^0.112.1",
+    "svgr": "^1.10.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/escape-html": "^1.0.4",
+    "@types/markdown-it": "^14.1.2",
+    "@types/prismjs": "^1.26.5"
+  },
+  "react-dotenv": {
+    "whitelist": [
+      "BACKEND_URL"
+    ]
+  }
+}
